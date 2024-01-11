@@ -23,16 +23,16 @@ The working directory was `/home/lecture1` when the code was run. `cd` gave an e
 
 
 ## `ls` with no argument
-
+![Image](LsNoArg.png)
 
 The working directory was `/home/lecture1` when the code was run. `ls` gave an output of all the files and folders that are inside the lecture1 folder. Having no arguments meant that we wanted to know all the files and folders in the current directory. There were no errors.
 
 ## `ls` with directory as argument
-
+![Image](LsArgDirect.png)
 
 The working directory was `/home/lecture1` when the code was run. `ls` gave an output of all the files that were inside the messages folder. As we passed in the messages path as an arugment, `ls` showed all the files inside of it. There were no errors.
 
 ## `ls` with file as argument
-
+![Image](LsArgFile.png)
 
 The working directory was `/home/lecture1` when the code was run.`ls` returned the name of the file we passed in as an argument. There were no errors but this was pointless as we did not find out what was inside the file. 
