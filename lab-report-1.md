@@ -36,3 +36,18 @@ The working directory was `/home/lecture1` when the code was run. `ls` gave an o
 ![Image](LsArgFile.png)
 
 The working directory was `/home/lecture1` when the code was run.`ls` returned the name of the file we passed in as an argument. There were no errors but this was pointless as we did not find out what was inside the file. 
+
+
+## `cat` with no argument
+
+The working directory was `/home/lecture1` when the code was run. `cat` did not print any output unless something else was typed into the terminal. It would then output exactly what you would type into it. This is an error because cat is supposed to print out the contents inside a file but without any file passed to it, it could only repeat whatever output you pass in.
+
+
+## `cat` with directory as argument
+
+The working directory was `/home/lecture1` when the code was run. `cat` gave an error as an output stating that messages was a directory. `cat` could not print the contents since messages is not a file. 
+
+
+## `cat` with file as argument
+
+The working directory was `/home/lecture1/messages` when the code was run. `cat` printed "Hello World!" as that was the contents of the file that we passed into it. 
