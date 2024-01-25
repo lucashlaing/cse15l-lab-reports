@@ -5,7 +5,7 @@
 ![Image](CdNoArg.png)
 
 
-The working directory was `/home` when the code was run. `cd` does not have any output and it worked as expected. As there was no argument, the directory we were in did not change as we can see in the next line. The output is not an error but this line was pointless as it did nothing.
+The working directory was `/home/lecture1/messages` when the code was run. `cd` does not have any output and it worked as expected. As there was no argument, our directory went back to the root directory which is  `/home`. There was no output as  `cd` never gives an output and only changes our directory.
 
 
 ## `cd` with directory as argument
