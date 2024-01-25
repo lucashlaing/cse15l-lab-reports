@@ -1,7 +1,8 @@
-## Lab Report 2
+# Lab Report 2
 
-# ChatServer code
-`import java.io.IOException;
+## ChatServer code
+```
+{import java.io.IOException;
 import java.net.URI;
 
 class ChatHandler implements URLHandler {
@@ -43,4 +44,5 @@ class ChatServer {
         Server.start(port, new ChatHandler());
     }
 }
-`
+}
+```
