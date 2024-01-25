@@ -48,9 +48,9 @@ class ChatServer {
 
 ## Example 1
 
-![First Message]{Lab2Pics/FirstMsg.png}
+![First Message](Lab2Pics/FirstMsg.png)
 
 
 
 ## Example 2
-![Second Message]{Lab2Pics/SecondMsg.png}
+![Second Message](Lab2Pics/SecondMsg.png)
