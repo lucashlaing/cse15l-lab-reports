@@ -49,7 +49,7 @@ class ChatServer {
 ## Example 1
 
 ![First Message](Lab2Pics/FirstMsg.png)
-
+At this point, the value of `allChats` already hsa the 2 messages displayed above. Firstly, the `handleRequest` method is called with the URL passed in as an argument. The value of `url` changes to be `http://localhost:4044/add-messsage?s=finally&user=lcuas`. Within the method, the value of `user` changes to "lcuas", and the value of `message` changes to "finally".
 
 
 ## Example 2
