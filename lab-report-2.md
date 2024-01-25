@@ -44,5 +44,4 @@ class ChatServer {
         Server.start(port, new ChatHandler());
     }
 }
-}
 ```
