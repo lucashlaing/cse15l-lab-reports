@@ -47,7 +47,7 @@ The working directory was `/home/lecture1` when the code was run.`ls` returned t
 ![Image](CatNoArg.png)
 
 
-The working directory was `/home/lecture1` when the code was run. `cat` did not print any output unless something else was typed into the terminal. It would then output exactly what you would type into it. This is an error because `cat` is supposed to print out the contents inside a file but without any file passed to it, it could only repeat whatever output you pass in.
+The working directory was `/home/lecture1` when the code was run. `cat` did not print any output unless something else was typed into the terminal. It would then output exactly what you would type into it. Looking into cat without an argument, I realized that some developers use it to get rid of any formatting done to text. Some more research also tells me that it was more useful in the past with the first computers. I had to press `Crtl + c` to escape from this, which terminated the program. 
 
 
 ## `cat` with directory as argument
