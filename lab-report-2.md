@@ -49,8 +49,14 @@ class ChatServer {
 ## Example 1
 
 ![First Message](Lab2Pics/FirstMsg.png)
-At this point, the value of `allChats` already hsa the 2 messages displayed above. Firstly, the `handleRequest` method is called with the URL passed in as an argument. The value of `url` changes to be `http://localhost:4044/add-messsage?s=finally&user=lcuas`. Within the method, the value of `user` changes to "lcuas", and the value of `message` changes to "finally".
+
+
+At this point, the value of `allChats` already has the 2 messages displayed above which are "jpolitz: Hello \n jpolitz: Hellwo \n". Firstly, the `handleRequest` method is called with the URL passed in as an argument. The value of `url` changes to be `http://localhost:4044/add-messsage?s=finally&user=lcuas`. Within the method, the value of `user` changes to "lcuas", and the value of `message` changes to "finally". Finally, the value of `allChats` changes to be "jpolitz: Hello \n jpolitz: Hellwo \n lcuas: finally \n". 
 
 
 ## Example 2
 ![Second Message](Lab2Pics/SecondMsg.png)
+
+
+At this point, the value of `allChats` already has the 2 messages displayed above which are "jpolitz: Hello \n jpolitz: Hellwo \n lcuas: finally \n". 
+ Firstly, the `handleRequest` method is called with the URL passed in as an argument. The value of `url` changes to be `http://localhost:4044/add-messsage?s=hello&user=sam`. Within the method, the value of `user` changes to "sam", and the value of `message` changes to "hello". Finally, the value of `allChats` changes to be "jpolitz: Hello \n jpolitz: Hellwo \n lcuas: finally \n sam: hello \n". 
