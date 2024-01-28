@@ -58,5 +58,5 @@ At this point, the value of `allChats` already has the 2 messages displayed abov
 ![Second Message](Lab2Pics/SecondMsg.png)
 
 
-At this point, the value of `allChats` already has the 2 messages displayed above which are "jpolitz: Hello \n jpolitz: Hellwo \n lcuas: finally \n". 
+At this point, the value of `allChats` already has the 3 messages displayed above which are "jpolitz: Hello \n jpolitz: Hellwo \n lcuas: finally \n". 
  Firstly, the `handleRequest` method is called with the URL passed in as an argument. The value of `url` changes to be `http://localhost:4044/add-messsage?s=hello&user=sam`. Within the method, the value of `user` changes to "sam", and the value of `message` changes to "hello". Finally, the value of `allChats` changes to be "jpolitz: Hello \n jpolitz: Hellwo \n lcuas: finally \n sam: hello \n". 
