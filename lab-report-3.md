@@ -8,23 +8,23 @@ For bugs, we will be looking at the  `reversed` method from week 4. It is suppos
 ### A failure-inducing input
 ```
   @Test 
-	public void testReverseInPlace() {
+  public void testReverseInPlace() {
     int[] input1 = { 3,5,1 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 1,5,3 }, input1);
-	}
+  }
 ```
 
 
 ### An input that does not cause a failure 
 
 ```
-	@Test 
-	public void testReverseInPlace2() {
+  @Test 
+  public void testReverseInPlace2() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+  }
 ```
 
 
@@ -56,7 +56,7 @@ The problem with the initial code was taking the elements from the end of the ar
 ## Part 2: Researching Commands
 
 
-For this part, we will be looking at the command `grep`. These command line options were found [from the geeksforgeeks website here.] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+For this part, we will be looking at the command `grep`. These command line options were found [from the geeksforgeeks website here.](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ### `grep -i`
 
