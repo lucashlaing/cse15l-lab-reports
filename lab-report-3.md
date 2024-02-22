@@ -14,7 +14,7 @@ For bugs, we will be looking at the  `reversed` method from week 4. It is suppos
     assertArrayEquals(new int[]{ 1,5,3 }, input1);
   }
 ```
-
+![Symptom1](./lab3-pics/Symptom1.png)
 
 ### An input that does not cause a failure 
 
@@ -26,7 +26,7 @@ For bugs, we will be looking at the  `reversed` method from week 4. It is suppos
     assertArrayEquals(new int[]{ 3 }, input1);
   }
 ```
-
+![Symptom2](./lab3-pics/Symptom2.png)
 
 ### The initial code that was causing the failure
 ```
