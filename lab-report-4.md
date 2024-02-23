@@ -17,8 +17,25 @@ I typed in `git clone git@github.com:lucashlaing/lab7.git` and pressed `<Enter>`
 Firstly, I typed in `cd lab7 <Enter>` to move my working directory into lab7. Then I typed in `ls <Enter>` to check all the files in the directory. Lastly, I typed in `bash test.sh <Enter>`. This ran the bash script named test with all the tests. We can see that 1 of them fails. 
 
 ## Step 7
-![Step 7](./lab4-pics/Step7.png)
-Firstly, I typed in `vim ListExamples.java <Enter>` to open up that java file in vim. Then I typed in `:$ <Enter>` to go to the bottom of the file. Next, I typed in `6k w e`. `6k` moved the cursor to the line with the error. `w` moved me the first word and `e` moved me to the end of said word where the error was. Next, I typed in `x` to delete the 1. I then typed in `i` to enter Insert Mode and typed "2". I type `<Esc>` to go back to Normal mode from Insert Mode. Lastly, I typed `:wq <Enter>` to save the code and exit vim.
+![Step 7-1](./lab4-pics/Step7-1.png)
+
+
+Firstly, I typed in `vim ListExamples.java <Enter>` to open up that java file in vim. This was what opened. You can see the cursor is at the very top.
+![Step 7-2](./lab4-pics/Step7-2.png)
+
+Then I typed in `:$ <Enter>` to go to the bottom of the file.
+![Step 7-3](./lab4-pics/Step7-3.png)
+
+
+Next, I typed in `6k w e`. `6k` moved the cursor to the line with the error. `w` moved me the first word and `e` moved me to the end of said word where the error was.
+![Step 7-4](./lab4-pics/Step7-4.png)
+
+
+Next, I typed in `x` to delete the 1. I then typed in `i` to enter Insert Mode and typed "2". I type `<Esc>` to go back to Normal mode from Insert Mode. 
+![Step 7-5](./lab4-pics/Step7-5.png)
+
+
+Lastly, I typed `:wq <Enter>` to save the code and exit vim.
 
 ## Step 8
 ![Step 8](./lab4-pics/Step8.png)
